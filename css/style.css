@@ -1,0 +1,125 @@
+:root {
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D5;
+    --Secondary-blue: #1A9AF7;
+    --Soft-blue: #E7F5FF;
+    --Warm-black: #201E1C;
+    --black: #282623;
+    --Grey: #BABABA;
+    --Off-whhite: #faf4f1;
+    --Just-White: #FFFFFF;
+    --bliue: #5a5af0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(208.83deg, var(--black) 16.69%, var(--bliue) 100%);
+}
+ 
+header img {
+    width: 100px;
+    height: 100px;
+    margin-top: 60px;
+    align-self: initial;
+}
+
+.header-title--container {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+}
+.header-title--container h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--Just-White);
+}
+
+.header-title--container p {
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--Soft-blue);
+}
+
+.header-title--container .header--button {
+    position: absolute;
+    left: calc(50% - 118px);
+    top: 270px;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--Off-whhite);
+    /*Sombra*/
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.header-title--container .header--button span {
+    display: inline-block;
+    width: 14px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url("../assets/icons/down-arrow.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background-color: var(--Just-White);
+}
+
+.main-title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 20px;
+    
+}
+
+.main-title p {
+    position: absolute;
+    left: calc(50% - 108px);
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    margin-top: 30px;
+    color: var(--black);
+}
